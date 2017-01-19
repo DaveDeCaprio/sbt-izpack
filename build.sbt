@@ -41,7 +41,7 @@ seq(lsSettings :_*)
 
 // External deps
 libraryDependencies ++= Seq(
-  "org.codehaus.izpack" % "izpack-standalone-compiler" % "4.3.5" % "compile",
+  "org.codehaus.izpack" % "izpack-maven-plugin" % "5.0.0-rc5" % "compile",
   "org.yaml" % "snakeyaml" % "1.14"
 )
 
